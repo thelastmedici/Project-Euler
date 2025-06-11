@@ -1,1 +1,1 @@
-Solution to projecct euler tasks and questions using python
+Solution to project Euler questions using python
