@@ -1,0 +1,1 @@
+Solution to projecct euler tasks and questions using python
