@@ -1,1 +1,1 @@
-Solution to project Euler questions using python
+Solution to project Euler questions using PYTHON
