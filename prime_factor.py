@@ -5,7 +5,7 @@
 #what are prime factors -- these are factors of a number that are also prime themsleves
 #how do we determine prime factors  a prime number are number that has two factors one and itselves
 # so this question wants me to find the largest number that has two factor one and itself that can be divided by 600851475143
-
+num = ""
 def highest_prime_factor(n):
     """A function that takes in a number
         and return list it's  prime factors
@@ -24,5 +24,5 @@ def highest_prime_factor(n):
         factors.append(n)
     return factors
 
-answer = highest_prime_factor(600851475143)
+answer = highest_prime_factor(n=num)
 print(f"The rime factors of the number are {answer}")
