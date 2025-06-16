@@ -28,6 +28,8 @@ def find_largest_palindrome_product():
             return False
 
     product = ""
+    val_a = 0
+    val_b = 0
     for a in range(100, 1000): #first number between 100 -> 999
         for b in range(100, 1000): #second number between 100 -> 999
             product = a * b
@@ -35,6 +37,8 @@ def find_largest_palindrome_product():
             if palindrome_checker(word=product):
                 if int(product) > int(largest_palindrome):
                     largest_palindrome = int(product)
+                    val_a = a
+                    val_b = b
     
     return largest_palindrome
 
