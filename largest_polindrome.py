@@ -35,6 +35,9 @@ def find_largest_palindrome_product():
             if palindrome_checker(word=product):
                 if int(product) > int(largest_palindrome):
                     largest_palindrome = int(product)
+    
+    return largest_palindrome
+
 result = find_largest_palindrome_product()
 print(f"The largest palindrome is:{result} ")
 
