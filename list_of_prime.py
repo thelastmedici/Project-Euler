@@ -24,4 +24,4 @@ def find_nth_prime(nth):
     return num
 
 nth_prime = find_nth_prime(10001)
-print(f"The 10001st prime number is: {nth_prime}")
+print(f" {nth_prime}")
